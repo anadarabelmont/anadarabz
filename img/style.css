@@ -1,0 +1,199 @@
+/*GLOBAL*/
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*FIM GLOBAL*/
+
+/*introduçao*/
+
+.intro {
+  margin-top: 200px;
+}
+
+.intro p {
+  color: #5c469c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+.intro h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  color: #181925;
+}
+
+.intro button {
+  padding: 10px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid #5c469c;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #5c469c;
+  font-weight: 500;
+}
+
+.intro button:hover {
+  background-color: #5c469c;
+  color: #f3f1f8;
+}
+/*fim introduçao*/
+
+/*sobre*/
+
+.about-container h3 {
+  color: #5c469c;
+}
+
+.about-container p {
+  color: #181925;
+}
+
+.education-column {
+  padding: 10px;
+  margin: 15px;
+  border: 2px solid #5c469c;
+  border-radius: 20px;
+}
+
+.about {
+  margin-top: 300px;
+}
+
+/*fim sobre*/
+
+/*skills*/
+.skills {
+  margin-top: 100px;
+}
+
+.skills h2 {
+  color: #5c469c;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin: 10px;
+  padding: 20px 30px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #5c469c;
+}
+
+.box:hover {
+  background-color: #cec7e6;
+  border: 1px solid #cec7e6;
+}
+
+.box img {
+  width: 50%;
+  transition: 0.3s;
+}
+
+.box p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/*fim skills*/
+
+/*projetos*/
+
+.project-container {
+  margin-top: 200px;
+}
+
+.img-project {
+  max-width: 500px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.project-item button {
+  padding: 10px;
+  margin: 10px;
+  color: #5c469c;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #5c469c;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.project-item p {
+  font-size: 1.8rem;
+}
+
+.project-item button:hover {
+  background-color: #5c469c;
+  color: white;
+}
+
+/*fim projetos*/
+
+/*contato*/
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+}
+
+.contact {
+  margin: 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #5c469c;
+}
+
+.box-icon img {
+  width: 50px;
+}
+.box-icon {
+  padding: 10px 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #5c469c;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  color: #5c469c;
+}
+
+.contacts-container {
+  margin-top: 150px;
+}
+
+.title-contact {
+  color: #5c469c;
+}
+
+/*fim contato*/
+
+/*footer*/
+.footer-container {
+  margin-top: 150px;
+  background-color: #cec7e6;
+  height: 120px;
+}
+
+/*fim footer*/
