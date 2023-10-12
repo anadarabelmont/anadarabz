@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px) {
+  .intro p {
+    font-size: 1.2rem;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .img-project {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .img-project {
+    max-width: 250px;
+  }
+
+  .project-item button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-eu {
+    width: 0;
+    height: 0;
+  }
+  .education-column {
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid #5c469c;
+    border-radius: 20px;
+  }
+  .education-column {
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 284px) {
+  .img-project {
+    max-width: 150px;
+  }
+  .project-item button {
+    font-size: 0.8rem;
+  }
+}
