@@ -77,6 +77,10 @@ html {
   margin-top: 300px;
 }
 
+.about h3 {
+  color: #5c469c;
+}
+
 .img-eu {
   max-width: 300px;
 }
