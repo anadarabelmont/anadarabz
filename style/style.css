@@ -47,6 +47,17 @@ html {
 
 /*sobre*/
 
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
 .about-container h3 {
   color: #5c469c;
 }
@@ -64,6 +75,10 @@ html {
 
 .about {
   margin-top: 300px;
+}
+
+.img-eu {
+  max-width: 300px;
 }
 
 /*fim sobre*/
@@ -85,7 +100,6 @@ html {
 .box {
   margin: 10px;
   padding: 20px 30px;
-  border: 1px solid transparent;
   border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
@@ -94,12 +108,10 @@ html {
 
 .box:hover {
   background-color: #cec7e6;
-  border: 1px solid #cec7e6;
 }
 
 .box img {
   width: 50%;
-  transition: 0.3s;
 }
 
 .box p {
